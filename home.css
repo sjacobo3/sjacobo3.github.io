@@ -1,0 +1,25 @@
+.page {
+    font-family: monospace;
+    margin-top: 30px;
+}
+
+.socials-list {
+    list-style-type: none;
+    color:black;
+}
+
+#profile-pic {
+    width: 100%;
+    height:auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+nav {
+    text-align: center;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
