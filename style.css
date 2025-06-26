@@ -15,7 +15,7 @@ h1, h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 80px;
+    padding: 0 30px;
     height: 60px;
     background: rgb(223, 151, 175);
     box-shadow: 0 2px 5px rgba(0,0,0,0.3);
@@ -40,13 +40,14 @@ h1, h2 {
 .nav-item:hover {
     color: #fff;
 }
-/* main information */
+
+/* Intro Page */
 .intro {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 25px;
-    padding: 50px 20px;
+    padding: 50px 30px;
     max-width: 1000px;
     margin: auto;
 }
@@ -66,13 +67,35 @@ h1, h2 {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
     margin-bottom: 20px;
 }
-.btn:hover {
+.btn-light:hover {
     border: none;
     background-color: rgba(216, 112, 147, 0.50);
 }
 
 .about-me {
     max-width: 1000px;
+}
+
+/* Projects Page */
+.projects {
+    padding: 50px 30px;
+    max-width: 1000px;
+    margin: auto;
+}
+.projects h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+.project-card {
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid rgba(216, 112, 147, 0.50);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
 }
 
 /* media queries */
