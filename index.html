@@ -15,11 +15,11 @@
             <p class="nav-logo">SJ</p>
             <div class="nav-bar">
                 <div><a class="nav-item" href="#">Home</a></div>
-                <div><a class="nav-item" href="projects.html">Projects</a></div>
+                <div><a class="nav-item" href="#projects">Projects</a></div>
             </div>
         </nav>
 
-        <main class="intro">
+        <div class="intro">
             <!-- left side content -->
             <div class="profile">
                 <img src="img/prof.jpg" class="headshot" alt="Samara Jacobo Headshot" />
@@ -41,8 +41,26 @@
                 <p>I'm passionate about building technology that supports communities and improves accessibility. Some of my favorite projects have involved using web development to create user-friendly interfaces, and I recently explored neural networks by generating music playlists trained on book data.</p>
                 <p>Outisde of class, I enjoy reading, running, and organizing social events with friends. I'm currently seeking opportunities in software engineering or cybersecurity where I can continue learning, growing, and making meaningful contributions.</p>
             </div>
-        </main>
+        </div>
+
+        <div class="projects" id="projects">
+            <h2>My Projects</h2>
+            <div class="projects-grid" id="projects-grid">
+                <!-- format to add project -->
+                <div class="project-card">
+                    <h5 class="project-title">Personal Website</h5>
+                    <p class="project-description">My personal website showcasing my background using HTML, CSS, and JavaScript to highlight my technical skills and development experience.</p>
+                    <a href="https://github.com/sjacobo3/sjacobo3.github.io" target="_blank" class="btn btn-primary">View on Github</a>
+                </div>
+                <div class="project-card">
+                    <h5 class="project-title">CampusMart</h5>
+                    <p class="project-description">Collaborated with a team to develop a full-stack web application using Python, Django, HTML, CSS, and JavaScript. The platform allows college students to buy and sell items on campus.</p>
+                    <a href="https://github.com/sjacobo3/Paradigms_SP25_Course_Project" target="_blank" class="btn btn-primary">View on Github</a>
+                </div>
+                
+            </div>
+        </div>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    </body>
+        <script src="script.js"></script>    </body>
 </html>
